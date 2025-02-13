@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="result"></h1>
+    Enter Radius : <input type="text" id="radius" onkeyup="calculateVolOfSphere()">
+    <!-- <button onclick="calculateVolOfSphere()">calculate</button> -->
+    <script>
+        // volume of sphere : 4/3*Pi*radius^3
+        const PI = 3.14;
+        function calculateVolOfSphere() 
+        {
+            /*in inpObj input tag is coming*/
+            var inpObj = document.getElementById("radius");
+            console.log(inpObj);
+            var radius = inpObj.value;
+            if (radius<=0) 
+            {
+                inpObj.style.outline="2px solid red";
+                // inpObj.style.backgroundColor="red";
+                // inpObj.style.color="white";
+            }
+            else
+            {
+                inpObj.style.outline="unset"; 
+            }
+            var volume = 4 / 3 * PI * radius ** 3;
+            document.getElementById("result")
+                .innerHTML = "the volume of sphere is " + volume;
+        }
+
+        /*
+            H.w
+            volume of cone => 1/3*pi*r*r*h;
+            volume of cylinder => pi*r*r*h;
+            volume of cube => r*r*r;
+            area of triangle => 1/2*b*h;
+            convert celsius to fahrenheit => C × 9/5 + 32
+            convert fahrenheit to celsius => F − 32 × 5/9;
+            convert miles to kilometer => 1.609*miles;
+            simple interest => p*r*t/100;
+            surface area of sphere => 4*pi*r*r;
+            surface area of cylinder => 2*pi*r*r+2*pi*r*h;
+            surface area of cube => 6*r*r;
+    
+            1. documentation 
+            2. plugability of code 
+
+            Topics 
+            1. JS intro
+            2. variables and datatype
+            3. perform arithmetic operations 
+            4. using modern approach for user input handling
+
+        */
+    </script>
+
+
+</body>
+
+</html> 
