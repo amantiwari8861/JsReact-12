@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="result"></h1>
+    Enter ur Age : <input type="text" id="age"> <br>
+    Enter ur Marks Percentage : <input type="text" id="marks"><br>
+    Enter Month : <input type="text" id="month"><br>
+    <button onclick="checkAge()">check age</button>
+    <button onclick="checkMarks()">check marks</button>
+    <button onclick="giveMonthName()">check month</button>
+
+    <script>
+        function checkAge() {
+            const h1Obj = document.getElementById("result");
+            var age = document.getElementById("age").value;
+            // if,if-else,else-if,nested if,switch
+            // if (age>=18)  // true-block
+            // {
+            //     h1Obj.innerHTML = "Ready to vote!";
+            // }
+            if (age>=18)  // true-block
+            {
+                h1Obj.innerHTML = "Ready to vote!";
+            }
+            else
+            {
+                h1Obj.innerHTML = "Not Ready to vote!";
+            }
+        }
+        function checkMarks() 
+        {
+            const h1Obj = document.getElementById("result");
+            var marks = document.getElementById("marks").value;
+
+            if (marks>=80 && marks<=100) 
+            {
+                h1Obj.innerHTML="Got admission in IIT<br>";
+                if (marks==100) 
+                {
+                    h1Obj.innerHTML+="no fee will be charged!";
+                }
+                else if(marks>=95)
+                {
+                    h1Obj.innerHTML+="50% scholarship";
+                }
+            }
+            else if (marks>=60 && marks<80) 
+            {
+                h1Obj.innerHTML="Got admission in SGT";
+            }
+            else if (marks>=50 && marks<60) 
+            {
+                h1Obj.innerHTML="Got admission in MDU";
+            }
+            else if (marks>=33 && marks<50) 
+            {
+                h1Obj.innerHTML="Got admission in Any private college";
+            }
+            else if (marks>=0 && marks<33) 
+            {
+                h1Obj.innerHTML="sell tea";
+            }
+            else
+            {
+                h1Obj.innerHTML="invalid marks percentage!";
+            }
+        }
+        function giveMonthName() 
+        {
+            var message="";
+            const h1Obj = document.getElementById("result");
+            var month = document.getElementById("month").value;
+
+            // 1-12 -> Jan
+
+            // if (month==1) {
+            // }
+
+            switch(month)
+            {
+                case "jan":message="January";
+                    break;
+                // case 1:message="January";
+                //     break;
+                // case 2:message="February";
+                //     break;
+                // case 12:message="December";
+                //     break;
+                default:message="invalid month No.";
+                break;
+            }
+            h1Obj.innerHTML=message;
+ 
+        }
+    
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const PI = 3.14;
+        function calcVolOfSp()
+        {
+            var radius = document.getElementById("radInp").value;
+            var volOfSp = 4 / 3 * PI * radius ** 3;
+            document.getElementById("res")
+                .innerHTML = "Volume of sphere is :" + volOfSp;
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="res"></h1>
+    Enter radius : <input type="text" id="radInp">
+    <button onclick="calcVolOfSp()">calculate</button>
+
+
+</body>
+
+</html>
