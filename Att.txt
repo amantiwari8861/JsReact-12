@@ -1,7 +1,5 @@
 W/D Am JS@12
-Ankit 17960
 HarSimran 19561
-Om Dayal 19463
 pranav 19348
 Akash 19409
 Nikhil 19575
@@ -11,7 +9,6 @@ Tannu yadav 19338
 Annu 18614
 shubham 19021
 muskan 19276
-naveen 19472
 pankaj 18860
 Aashish 19298
 seema 18399
@@ -20,7 +17,6 @@ tannu kaushik 18248
 chetan 19479
 subhash 18625
 Abhinav 18363
-shital 16624
 Shraddha 19059
 shivam 19123 
 tanuj 19321
@@ -30,17 +26,20 @@ karan 18986
 sushil 19392
 rohit 19459
 kunal 18367
+naina 17980
+Yuvraj 19309
+naveen panwar 18557
+Shivam 19274
+Kishore 19534
+neha parmaar 18067
+
+Ankit 17960
+naveen 19472
+Om Dayal 19463
+shital 16624
 rikshit 18184
 harsh 18368
-naina 17980
-
 Baibhav 18677
 chetna 18652
-naveen panwar 18557
 Deepak 19306
 Manshi 19341
-Shivam 19274
-Yuvraj 19309
-Kishore 9667561943
-devashish 19530
-
