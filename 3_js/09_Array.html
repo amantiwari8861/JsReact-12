@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // 1 Dimension Array 
+        // Array : Heterogeneous  collection of data 
+
+        // let arr=[10,23.456,67348734,true,"Aman",new Date(),null,undefined,NaN]
+        // document.write(arr);
+        // console.log(arr);
+
+        // var fruits=["Apple","Mango","Papaya","Grapes","Strawberry","xyz"];
+        // // console.log(fruits);
+        // // console.log("At index 0 the value is :"+fruits[0]);
+
+        // // for(var i=0;i<4;i++)
+        // for(var i=0;i<fruits.length;i++)
+        // {
+        //     console.log("At index "+i+" the fruit is "+fruits[i]);
+        // }
+
+
+        // let strudent :  n subject marks 
+        // Dynamically growable and shrinkable 
+
+        // let marks=[];
+        // let marks=new Array();
+
+        //     var noOfSubject=Number(prompt("Enter No. of subject:"));
+
+        //     for (let i = 0; i < noOfSubject; i++) 
+        //     {
+        //         marks[i]=Number(prompt("Enter subject "+(i+1)+" Marks:"));
+        //     }
+        //     // logic 
+        //     var total=0;
+        //     for(var i=0;i<marks.length;i++)
+        //     {
+        //         total+=marks[i];
+        //     }
+
+        //    document.write("<h1>Marks :"+marks+"</h1>");
+        //    document.write("<h1>Total :"+total+"</h1>");
+        //    document.write("<h1>Percentage :"+(total/noOfSubject)+"%</h1>");
+        //    // (marks/noOfSub*100)*100
+
+
+
+        // country -> States 
+
+        var country = ["india", "America", "Australia"];
+
+        var states = [
+            ["UP", "MP", "HR"],
+            ["NYC", "Texas", "San Fr.", "San Diego"],
+            ["sydney", "melbourne"]
+        ]
+
+        // console.log(states);
+        // console.table(states);
+        // console.table(states[2][0]);
+        document.write("<table border='1'>")
+        for (let i = 0; i < states.length; i++) {
+            const row = states[i];
+            // console.log(i,":",row);   
+            document.write("<tr>") 
+            for (var j = 0; j < row.length; j++) {
+                document.write("<td>"+states[i][j] + "</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
