@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button onclick="myFunc()">click me</button>
+    <script>
+        // Function : group of code which together performs a task
+        // Advantages of function :
+        // 1. Reusability of code 
+        // 2. Modularity (independent ot each other)
+        // 3. splitting the code (to reduce complexity and increase readibility )
+
+        // there are 2 types of function 
+        // 1.built-in(pre-defined) function 
+        // 2.user-defined function 
+
+        // functions can be categorized into 4 category
+        // 1. no argument(parameter) no return type 
+        // 2. no argument(parameter) with return type 
+        // 3. with argument(parameter) no return type 
+        // 4. with argument(parameter) and with return type 
+
+        // 1. no argument(parameter) no return type 
+        function myFunc() {
+            document.body.innerHTML += "Hello wold <br>";
+        }
+
+        // var result= Math.pow(3,4);
+        // console.log("Result =",result);
+        // console.log(Math.pow(2,4));
+        // console.log(Math.pow(2.5,3));
+        // console.log(Math.pow(5,4));
+
+        // 2. no argument(parameter) with return type 
+
+        // function getValueOfPI() 
+        // {
+        //     console.log("returning value of pi..");
+        //     return 3.14;
+        // }
+        // console.log(myFunc());
+        // console.log(getValueOfPI());
+
+        // 3. with argument(parameter) no return type 
+
+        // function printResult(res) 
+        // {
+        //     console.log("The volume of sphere is "+res);
+        // }
+        // printResult(200);
+
+        // 4. with argument(parameter) and with return type 
+        // function calcVolOfSp(r) 
+        // {
+        //     // return 4/3*3.14*r**3;
+        //     return 4/3*getValueOfPI()*r**3;
+        // }
+        // let result=calcVolOfSp(2.5)
+        // console.log(result);
+
+        // printResult(calcVolOfSp(2.5));
+
+        // let add=function sum(a,b){return a+b};
+        // let add=function (a,b){return a+b};// anonymous function
+        // let add=(a,b)=>{
+        //     console.log("byee..");
+        //     return a+b;
+        // };// arrow function (es6)
+
+        // let add=(a,b)=>a+b;// arrow function (es6)
+        // console.log(sum(10,20));
+        // console.log(add(10,20));
+
+        // (function myFunc()
+        // {
+        //     document.body.innerHTML+="Hello wold <br>";
+        // })();
+
+        // setTimeout(myFunc, 2000); // callback 
+        // setTimeout(() => {
+        //     console.log("Happy Mahashivratri to All!!");
+        // }, 3000);
+
+        let arr = ["Apple", "mango", "papaya", "pomegranate", "etc"]
+        // function printFruit(fruit) {
+        //     console.log(fruit);
+        // }
+        // arr.forEach(printFruit);
+
+        // arr.forEach(e=>{
+        //     console.log(e);
+        // });
+
+        // function sum(a,b,...bachaHua) 
+        // {
+        //     console.log(bachaHua,Array.isArray(bachaHua));
+        // }
+        // console.log(sum(10,20,30,40));
+        
+
+    </script>
+
+
+</body>
+
+</html>
