@@ -1,20 +1,14 @@
 W/D Am JS@12
+Shivangi 19384
 HarSimran 19561
-karan 18986
 pranav 19348
 Akash 19409
 Nikhil 19575
-Shivangi 19384
 Harshdeep 19406
 shubham 19021
-muskan 19276
-pankaj 18860
-Aashish 19298
 seema 18399
 tannu kaushik 18248
-chetan 19479
 Abhinav 18363
-Dinesh 19297
 sushil 19392
 Kishore 19534
 neha parmaar 18067
@@ -25,11 +19,17 @@ Manshi 19341
 yash 19121
 shahil 19124 
 tanuj 19321
-Sourav 19299
-rohit 19459
-Shraddha 19059
 Annu 18614
 Om Dayal 19463
+chetna 18652
+naina 17980
+Tannu yadav 19338
+parvinder 18117
+Aashish 19298
+Deepak kr 19705
+ridam 18373
+isha 18969
+
 
 harsh 18368
 kunal 18367
@@ -39,9 +39,14 @@ Shivam 19274
 subhash 18625
 rikshit 18184
 Baibhav 18677
-chetna 18652
 Ankit 17960
-Tannu yadav 19338
 vishal 19387
 shivam 19123 
-naina 17980
+karan 18986
+pankaj 18860
+muskan 19276
+chetan 19479
+Sourav 19299
+Dinesh 19297
+rohit 19459
+Shraddha 19059
