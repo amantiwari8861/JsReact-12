@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text">
+    <form action="" id="myform">
+        Enter name<input type="text" name="fname">
+        <button type="submit">submit</button>
+    </form>
+
+</body>
+<script>
+
+    document.getElementById("myform").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const value=document.getElementsByName("fname")[0].value;
+        console.log(value);
+    })
+</script>
+
+</html>

@@ -5,31 +5,28 @@ pranav 19348
 Akash 19409
 Nikhil 19575
 Harshdeep 19406
-shubham 19021
 seema 18399
 tannu kaushik 18248
 Abhinav 18363
-sushil 19392
 Kishore 19534
 neha parmaar 18067
-naveen 19472
-Deepak 19306
+Deepak Sharma 19306
 shital 16624
-Manshi 19341
-yash 19121
 shahil 19124 
-tanuj 19321
-Annu 18614
-Om Dayal 19463
-chetna 18652
 naina 17980
 Tannu yadav 19338
-parvinder 18117
 Aashish 19298
 Deepak kr 19705
-ridam 18373
 isha 18969
-
+ridam 18373
+chetan 19479
+muskan 19276
+vishal 19387
+Dinesh 19297
+karan 18986
+Sourav 19299
+megha 17863
+jyoti 18774
 
 harsh 18368
 kunal 18367
@@ -40,13 +37,17 @@ subhash 18625
 rikshit 18184
 Baibhav 18677
 Ankit 17960
-vishal 19387
 shivam 19123 
-karan 18986
 pankaj 18860
-muskan 19276
-chetan 19479
-Sourav 19299
-Dinesh 19297
 rohit 19459
 Shraddha 19059
+shubham 19021
+naveen 19472
+sushil 19392
+Manshi 19341
+tanuj 19321
+Annu 18614
+Om Dayal 19463
+yash 19121
+chetna 18652
+parvinder 18117
