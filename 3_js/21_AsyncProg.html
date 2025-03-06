@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1>Hiii</h1>
+    <h1 id="result"></h1> -->
+
+    <script>
+        // let count=0;
+        // for (let i = 1; i < 10e8; i++) {
+        //     count++;
+        // }
+        // document.getElementById("result").innerHTML = "Hello World " + count;
+
+        // single threaded nature of JS 
+        // Async Programming
+
+        // callback -> 
+
+        // console.log("Hello -98");
+
+        // // WEB API 
+        // setTimeout(() => {
+        //     console.log("Hello 1");
+        // }, 1000);
+        // setTimeout(() => {
+        //     console.log("Hello 2");
+        // }, 1000);
+        // setTimeout(() => {
+        //     console.log("Hello 3");
+        // }, 1000);
+        // setTimeout(() => {
+        //     console.log("Hello 4");
+        // }, 1000);
+
+        // console.log("Hello -99");
+        // console.log("Hello 0");
+
+        // callback hell
+        // setTimeout(() => {
+        //     console.log("selecting food from menu...." + new Date());
+        //     setTimeout(() => {
+        //         console.log("ordering food...." + new Date());
+        //         setTimeout(() => {
+        //             console.log("processing food..." + new Date());
+        //             setTimeout(() => {
+        //                 console.log("serving food..." + new Date());
+        //             }, 4000);
+        //         }, 3000);
+        //     }, 2000);
+        // }, 1000);
+
+        // let intervalId=setInterval(() => {
+        //     console.log("hiii ");
+        // }, 1000);
+
+        // setTimeout(() => {
+        //     console.log('clearing interval...');
+        //     clearInterval(intervalId);
+        // }, 5000);
+
+        // Promise 
+        // let money = 0;
+        // let makePromise = new Promise((resolve, reject) => {
+        //     if (money >= 1000)
+        //         resolve();
+        //     else
+        //         reject();
+        // });
+
+        // // console.log(makePromise);
+
+        // makePromise
+        // .then(() => {
+        //     console.log("ordering food....")
+        // })
+        // .catch(() => {
+        //     console.log('don\'t have enough money .')
+        // });
+
+
+        // let money = 0;
+        let money = 1000;
+        let taskScheduler = (time, work) => new Promise((resolve, reject) => {
+            if (money >= 1000)
+                setTimeout(() => {
+                    resolve(work())
+                }, time);
+            else
+                reject(()=>console.log("byeee.."));
+        })
+
+
+        taskScheduler(1000,()=>console.log("selecting food..."))
+        .then(()=>taskScheduler(2000,()=>console.log("ordering food...")))
+        .then(()=>taskScheduler(3000,()=>console.log("processing food...")))
+        .then(()=>taskScheduler(4000,()=>console.log("serving food...")))
+        .catch(()=>console.log('don\'t have enough money .'))
+
+
+    </script>
+
+
+</body>
+
+</html>
