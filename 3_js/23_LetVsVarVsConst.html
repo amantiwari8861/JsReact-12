@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // console.log(a);
+        // var a=10;
+        // let a=10;
+        // const a=10;
+
+        // temporal dead zone (TDZ)
+
+        // hoisting 
+        // abc();
+        // function abc() {
+        //     console.log("hiii");
+        // }
+
+        // var a=10;
+        // var a=99;
+
+        // let a=10;
+        // let a=99;
+
+        // const a=10;
+        // a=99;
+        // const a=99;
+        // console.log(a);
+
+        // let a;
+        // a=10;
+
+        // const a;
+        // a=10;
+        // console.log(a);
+        
+        // for (var i = 0; i < 5; i++) {
+                      
+        // }
+        // console.log(i);
+        
+        var a=99;// global scope
+
+        // {
+        //     var i=10;
+        //     let j=20;
+        //     const k=99;
+        // }
+        // console.log(i);
+        // console.log(j);
+        // console.log(k);
+        
+        // function abc() {
+        //     console.log(a);
+        //     var i=10;
+        //     let j=20;
+        //     const k=99;
+            
+        // }
+        // abc();
+        // console.log(i);
+        // console.log(j);
+        // console.log(k);
+
+        function outer() 
+        { 
+            let a = 5; 
+            function inner() 
+            { 
+                console.log(a); 
+            } 
+            inner();
+        }
+        outer()
+
+        // 
+
+
+    </script>
+</body>
+</html>
